@@ -64,6 +64,12 @@ class ContactDetailsBlockController extends BlockController {
 		
 	}
 	
+	
+	function save($data) { 
+		$args['vcardDownload'] = ($data['vcardDownload']==1) ? 1 : 0;
+		parent::save($args);
+	}
+	
 	/*
 	public function getRssUrl($b, $tool = 'rss'){
 			$uh = Loader::helper('concrete/urls');

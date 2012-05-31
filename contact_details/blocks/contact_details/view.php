@@ -118,7 +118,7 @@ switch ($phoneType2) {
 		</span>
 		
 		<dd>
-			<?php  if ($vcardDownload == true): ?>
+			<?php  if ($vcardDownload == '1'): ?>
 				<a class="cardDownload btn btn-small" href="<?php echo $cardUrl; ?>">Download vCard</a>
 			<?php  endif; ?>
 		</dd>

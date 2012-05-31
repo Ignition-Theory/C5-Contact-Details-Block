@@ -16,7 +16,9 @@
 	<div class="clearfix">
 		<label for="vcardDownload"><?php echo t('Enable vCard download link')?></label>
 		<div class="input">	
-			<input type="checkbox" name="vcardDownload" id="vcardDownload" value="true" <?php echo ($vcardDownload == 'true' ? 'checked="checked"' : '')?>>
+			<input type="checkbox" name="vcardDownload" value="1" <?php echo ($controller->vcardDownload)?'checked':''?>>
+			
+	
 		</div>
 	</div>
 </div>
