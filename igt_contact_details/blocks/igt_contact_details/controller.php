@@ -66,8 +66,8 @@ class IgtContactDetailsBlockController extends BlockController {
 	
 	
 	function save($data) { 
-		$args['vcardDownload'] = ($data['vcardDownload']==1) ? 1 : 0;
-		parent::save($args);
+		$data['vcardDownload'] = ($data['vcardDownload']==1) ? 1 : 0;
+		parent::save($data);
 	}
 	
 	/*
