@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <schema version="0.3">
-	<table name="btContactDetails">
+	<table name="btIgtContactDetails">
 		<field name="bID" type="I"><key /><unsigned /></field>
 
 		<field name="cardType" type="I"></field>

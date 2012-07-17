@@ -1,10 +1,10 @@
 <?php  defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class ContactDetailsPackage extends Package {
+class IgtContactDetailsPackage extends Package {
 	
-	protected $pkgHandle = 'contact_details';
+	protected $pkgHandle = 'igt_contact_details';
 	protected $appVersionRequired = '5.5.0';
-	protected $pkgVersion = '1.0.0';
+	protected $pkgVersion = '1.0.1';
 	
 	public function getPackageName() {
 		return t("Contact Details"); 
@@ -18,7 +18,7 @@ class ContactDetailsPackage extends Package {
           $pkg = parent::install();
      
           // install block 
-          BlockType::installBlockTypeFromPackage('contact_details', $pkg); 
+          BlockType::installBlockTypeFromPackage('igt_contact_details', $pkg); 
      }
 	
 }

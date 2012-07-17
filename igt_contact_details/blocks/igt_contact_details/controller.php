@@ -1,10 +1,10 @@
 <?php  defined('C5_EXECUTE') or die("Access Denied.");
 
-class ContactDetailsBlockController extends BlockController {
+class IgtContactDetailsBlockController extends BlockController {
 	
 	protected $btName = 'Contact Details';
 	protected $btDescription = 'A block for your contact details. Utilises the hCard micro format for better SEO.';
-	protected $btTable = 'btContactDetails';
+	protected $btTable = 'btIgtContactDetails';
 	
 	protected $btInterfaceWidth = "700";
 	protected $btInterfaceHeight = "450";
